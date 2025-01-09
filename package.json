@@ -1,0 +1,14 @@
+{
+  "name": "tempomarko",
+  "version": "1.0.0",
+  "description": "timestamp tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tt": "./index.js"
+  },
+  "author": "cdLin",
+  "license": "ISC"
+}
