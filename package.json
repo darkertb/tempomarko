@@ -10,5 +10,8 @@
     "tt": "./index.js"
   },
   "author": "cdLin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.4"
+  }
 }
