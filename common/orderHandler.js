@@ -1,9 +1,11 @@
 const CommonUseOrder = require('../order/commonUseOrder');
+const CodexOrder = require('../order/codexOrder');
 const HelperOrder = require('../order/helperOrder');
 const TimezoneOrder = require('../order/timezoneOrder');
 
 const orderHandlers = [
   new TimezoneOrder(),
+  new CodexOrder(),
   new HelperOrder(),
   new CommonUseOrder(),
 ];
