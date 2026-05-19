@@ -72,6 +72,7 @@ class CalculateAfterOrder {
       hours: remainingHours,
       minutes: remainingMinutes,
       seconds: remainingSeconds,
+      totalSeconds: seconds,
     };
 
     return result;
@@ -120,6 +121,8 @@ class CalculateAfterOrder {
     if (totalDays > 0) {
       parts.push(colt(`(${colt(totalDays).color256(myThemes.orange).bold()} 日)`).color256(myThemes.yellow));
     }
+
+    parts.push(colt(`(${colt(timeSource.totalSeconds).color256(myThemes.orange).bold()} 秒)`).color256(myThemes.yellow));
 
     return parts.join('  ');
   }
