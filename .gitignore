@@ -1,4 +1,5 @@
 .vscode
 userConfig/timezone.json
+userConfig/codex.json
 
 node_modules
